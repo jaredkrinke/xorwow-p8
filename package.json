@@ -1,0 +1,25 @@
+{
+  "name": "xorwow-p8",
+  "version": "1.0.0",
+  "description": "PICO-8 (Lua) implementation of the xorwow pseudo-random number generator",
+  "main": "xorwow.lua",
+  "scripts": {
+    "test": "pico8.exe -x output/xorwow-test.p8",
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredkrinke/xorwow-p8.git"
+  },
+  "author": "Jared Krinke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaredkrinke/xorwow-p8/issues"
+  },
+  "homepage": "https://github.com/jaredkrinke/xorwow-p8#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-replace-async": "^0.0.1"
+  }
+}
